@@ -1,0 +1,16 @@
+﻿<!DOCTYPE html>
+<html>
+<body>
+    <br/>
+    <br/>
+    <br/>
+
+    @using (Html.BeginForm("Upload", "UploadFactory", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+     <div> <div style="display:inline-block">  <input type="file" name="uploadfile" style="background-color:lightgreen" /></div>
+     <div style="display:inline-block">  <input type="submit" name="Submit" id="Submit" value="Upload" style="background-color:lightgreen" /></div></div>
+    }
+
+
+</body>
+</html>

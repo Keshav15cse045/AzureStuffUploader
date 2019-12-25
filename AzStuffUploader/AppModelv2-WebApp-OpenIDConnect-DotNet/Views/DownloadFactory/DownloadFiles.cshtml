@@ -1,0 +1,18 @@
+﻿@model AppModelv2_WebApp_OpenIDConnect_DotNet.Controllers.Helper.ListEntity
+
+@{
+    ViewBag.Title = "DownloadFiles";
+}
+
+<h2>DownloadFiles</h2>
+<ul>
+   @foreach (var data in Model.Files)
+        {
+            <li>@data.Filenames   <a href="@data.Url" target="_blank">Click here</a></li>
+        }
+
+    
+
+</ul>
+
+
