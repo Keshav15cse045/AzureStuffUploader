@@ -1,1 +1,1 @@
-"# AzureStuffUploader" 
+This web app makes use of microsofft identity platform for authentication of uses. It also makes use of azure key vault.such that application does not need to store any secret credentials. with this application authenticated users can upload and download small files to and from azure blobs.
